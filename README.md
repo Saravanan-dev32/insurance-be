@@ -25,7 +25,7 @@ This project provides a comprehensive backend solution for an insurance manageme
     - `policy_type`: Filter by policy type (e.g., "all" or specific type ID)
     - `sort_direction`: Sort order ("asc" or "desc")
   
-URL - https://insurance-be.onrender.com/api/policies?search=&min_premium=0&max_premium=10000&min_coverage=0&sort_by=premium&policy_type=all&sort_direction=asc
+GET Method  - https://insurance-be.onrender.com/api/policies?search=&min_premium=0&max_premium=10000&min_coverage=0&sort_by=premium&policy_type=all&sort_direction=asc
 - `POST /api/policies`: Create a new policy
 
 
