@@ -9,7 +9,7 @@ from api.policies_api import GetPolicies,GetPolicyTypes
 application = Flask(__name__)
 restful_api = Api(application)
 
-CORS(application, origins=["http://localhost:4200"])
+CORS(application, origins=["https://insurance-be.onrender.com"])
 
 
 restful_api.add_resource(GetPolicies,"/api/policies",methods=['GET'])
