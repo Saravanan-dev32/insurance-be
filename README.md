@@ -26,7 +26,7 @@ This project provides a comprehensive backend solution for an insurance manageme
     - `sort_direction`: Sort order ("asc" or "desc")
   
 GET Method  - https://insurance-be.onrender.com/api/policies?search=&min_premium=0&max_premium=10000&min_coverage=0&sort_by=premium&policy_type=all&sort_direction=asc
-- `GET /api/policies`: Get a new policy
+- `GET /api/policy-types`: Get a new policy
 
 
 
